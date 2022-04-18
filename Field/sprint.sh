@@ -1,9 +1,10 @@
 # !/bin/bash
 # This isn't a virus. So you can go ahead and run this file!
 
-if [ -f "../Door/.whatnext.txt" ]
+if [ -f "relative_vs_absolute.txt" ]
 then
-echo "it already exists"
+echo "You have already run this program, no need to run it again"
 else
-touch ../Door/secret.txt
+echo "Nice work! Recheck the contents of this directory...see anything new?"
+mv .relative_vs_absolute.txt relative_vs_absolute.txt
 fi
