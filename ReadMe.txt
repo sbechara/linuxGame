@@ -20,3 +20,5 @@ rm - remove a file
 
 ## First things first
 Learn all about the previous commands by typing man <command> and reading. You press the letter 'q' on your keyboard to quit the man program. Once you have read a little about each of those commands, go ahead and go to the field. You can go through the door if you want, but I don't think there is anything there...
+
+Scroll to the top!
