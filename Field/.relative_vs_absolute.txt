@@ -1,0 +1,15 @@
+# Where did this come from?
+
+Well, the sprint.sh file you ran uses the mv command to change a filename. Check the man page for mv to see if you can make sense of it.
+
+In short, when you run the mv command you do it like this:
+mv <file you want to move> <where you want to move it to>
+
+The cool thing is, you can rename the file on the fly. So if you move a file to the same place that it already is but change it's name, that is all it will do.
+
+## Absolute vs Relative File Paths
+
+This is a good time to talk about paths. Paths are just like they sound, they tell you how "deep" you are into your comptuer and they tell you where you are. For example, type out pwd into a terminal line and see what pops out.
+
+That line of text is your current path from the root folder which on linux systems is always / That means that everything is in the folder / because that is the root folder!
+
