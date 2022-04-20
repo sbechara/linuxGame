@@ -21,6 +21,7 @@ I have listed some basic commands below. For each of them, try reading the man p
 `cat` - print out the contents of a file
 `mkdir` - make a directory
 `rm`  - remove a file
+`cat` - print a file to the terminal window (it actually does more than that but for our purposes it prints)
 
 Although there are many more commands you can learn, these are the basics and with them, you can start exploring Linux filesystems!
 
@@ -47,4 +48,4 @@ To get started:
 2. Now, we need to "clone" the repository that I created that has all the files you will need in them. You can do so by typing in `git clone https://github.com/sbechara/linuxGame.git`
 3. Enter the `ls` command again. Magic! This is one of the reasons linux is cool because you can do stuff like this...
 
-Now that you have the basics, it is time for your journey! You can go through the door if you want, but I don't think there is anything there...Probably should start by going into the field. Don't forget to type `ls` once you get there to see what is available to you!
+Now that you have the basics, it is time for your journey! If you want to see this file printed out to the terminal window you can type `cat ReadMe.md`. Now, your journey is up to you! You can go through the door if you want, but I don't think there is anything there...Probably should start by going into the field. Don't forget to type `ls` once you get there to see what is available to you and you can read files by typing `cat <filename>`! 

@@ -4,7 +4,7 @@ currentDir=${PWD##*/} # removes pwd up to last slash and stores in var currentDi
 
 if [[ ! -n $(find study) || $currentDir != "Field" ]]
 then
-echo "You did not follow the instructions! Did you touch study? Are you in the correct folder?"
+echo "Ahhhhhh! You just ran the virus. It isn't really a virus it just prints this but still. Don't do that."
 else
 echo "Banana"
 fi
