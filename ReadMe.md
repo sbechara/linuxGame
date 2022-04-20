@@ -5,7 +5,9 @@ By: Samuel Bechara
 This was made by me, I am probably walking around the room right now weirding you out. Or maybe you are an online student. In either way, I hope you learn a little, and have a little fun.
 
 ## The first rule of Linux: Everything is either a file or a folder
-That is it! Super important that you never forget what you are dealing with. A file is a thing (a picture, a word document, a video) and a folder is a place that files can live in. Everything is a file, and it has to live in a folder. Remember, that and you are halfway to being a linux expert! But the other half is kind of hard, but still! Halfway there!
+This is really one of the only things you need to know! A file is a thing (a picture, a word document, a video) and a folder is a place that files can live in. Everything is a file, and it has to live in a folder. You are always in a folder (the very base folder is `/`). As an example, I am currently in my `/Users/sbechara/Documents/CSU/Teaching/MECH105/linuxGame` folder (that long description is called the path, notice that the lowest level is `/` showing that there is nothing lower than that). So to break it down, the `linuxGame` folder is in the `MECH105` folder which is in the `Teaching` folder which is in...you get the idea. Do you? 
+
+If you do, congratulations! You are halfway to being a linux expert! But the other half is kind of hard, but still! Halfway there!
 
 ## man - talk to the man!
 What I mean is that on linux systems, if you forget what something does, you can read the manual! I'll admit that it is pretty archaic and hard to understand, but the more you read them the more sense they make.
@@ -41,7 +43,8 @@ Hopefully you actually tried, you should see we need the `-d` option. So to remo
 I think it is best to think of Linux filesystems as a bunch of branching trails. Think of this as a journey. You are going to start in the folder called `linuxGameHome`. Let's see what we have in our current folder and where we can go! 
 
 To get started:
-1. First, go home by typing in `cd ~`
-2. Now, we need to "clone" the repository that I created that has all the files you will need in them. You can do so by typing in
+1. First, go home by typing in `cd ~`. Do an `ls` to see what is in your home folder. Make a mental note of what is there.
+2. Now, we need to "clone" the repository that I created that has all the files you will need in them. You can do so by typing in `git clone https://github.com/sbechara/linuxGame.git`
+3. Enter the `ls` command again. Magic! This is one of the reasons linux is cool because you can do stuff like this...
 
-You can go through the door if you want, but I don't think there is anything there...Probably should start by going into the field. Don't forget to type `ls` once you get there to see what is available to you!
+Now that you have the basics, it is time for your journey! You can go through the door if you want, but I don't think there is anything there...Probably should start by going into the field. Don't forget to type `ls` once you get there to see what is available to you!
