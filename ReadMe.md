@@ -24,6 +24,8 @@ I have listed some basic commands below. For each of them, try reading the man p
 * `cat` - print out the contents of a file
 * `mkdir` - make a directory
 * `rm`  - remove a file
+* `mv` - moves files around
+* `cp` - copies files
 * `cat` - print a file to the terminal window (it actually does more than that but for our purposes it prints)
 
 Although there are many more commands you can learn, these are the basics and with them, you can start exploring Linux filesystems! Learn all about the previous commands by typing man <command> and reading. You press the letter `q` on your keyboard to quit the man program. 
