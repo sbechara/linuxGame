@@ -17,14 +17,14 @@ What I mean is that on linux systems, if you forget what something does, you can
 ## Basic Commands
 I have listed some basic commands below. For each of them, try reading the man page by typing in `man <command>`.
 
-`pwd` - print working directory (tells you where you currently are)
-`cd` - change directory (allows you to move around)
-`touch` - create a file
-`ls` - list files and subdirectories in the current working directory
-`cat` - print out the contents of a file
-`mkdir` - make a directory
-`rm`  - remove a file
-`cat` - print a file to the terminal window (it actually does more than that but for our purposes it prints)
+* `pwd` - print working directory (tells you where you currently are)
+* `cd` - change directory (allows you to move around)
+* `touch` - create a file
+* `ls` - list files and subdirectories in the current working directory
+* `cat` - print out the contents of a file
+* `mkdir` - make a directory
+* `rm`  - remove a file
+* `cat` - print a file to the terminal window (it actually does more than that but for our purposes it prints)
 
 Although there are many more commands you can learn, these are the basics and with them, you can start exploring Linux filesystems! Learn all about the previous commands by typing man <command> and reading. You press the letter `q` on your keyboard to quit the man program. 
 
