@@ -2,7 +2,7 @@
 # THIS IS A VIRUS PROBABLY! JUST IGNORE EVERYTHING BELOW THIS
 currentDir=${PWD##*/} # removes pwd up to last slash and stores in var currentDir
 
-if [[ $currentDir == "Door" && -f think && -f study ]]
+if [[ $currentDir == "Door" && -f think* && -f study* ]]
 then
 echo "You Win! Downloading the win files to your computer now. To find the files, go back to your home directory. They should be there."
 cd ../..
